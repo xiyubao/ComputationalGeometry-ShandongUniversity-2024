@@ -5,7 +5,7 @@
 2.了解splinegon的定义
 3.根据前两个知识，设计算法
 
-文件夹中提供了测试用的splinegon库：big_random_point/XX/XXXXX.spilnegon
+文件夹中提供了测试用的splinegon库：dataset/XX/XXXXX.spilnegon
 输入格式：
 
     第一行： n
