@@ -3,5 +3,5 @@ splinegon的详细定义在《Computational geometry in a curved world》中
 简要定义：
 splinegon是一个闭合的不自交的不带洞的曲线多边形，
 它由多段首尾相连的曲线连接而成，
-如果我们将每一段曲线的起点和终点的连线代替这个曲线，那么我们会得到一个直线多边形，我们称之为该splinegon的core triangle
+如果我们将每一段曲线的起点和终点的连线代替这个曲线，那么我们会得到一个凹多边形，我们称之为该splinegon的core triangle
 为了简化，我们规定每一段曲线都是二次bezier曲线
