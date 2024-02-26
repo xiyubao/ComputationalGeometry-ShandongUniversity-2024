@@ -9,31 +9,31 @@
 测试：
 输入格式：
 
-第一行： s,n,m
-
-其中s是多边形的个数,n是多边形的边数，m是测试点的个数
-
-    以下重复s次
+    第一行： s,n,m
     
-    n行： Sx,Sy,Ex,Ey,Cx,Cy
+    其中s是多边形的个数,n是多边形的边数，m是测试点的个数
     
-    其中二次bezier曲线的起点S=(Sx,Sy),终点E=(Ex,Ey),控制点C=(Cx,Cy)
-    
-    m行：Px,Py
-    
-    其中测试点P=(Px,Py)
+        以下重复s次
+        
+        n行： Sx,Sy,Ex,Ey,Cx,Cy
+        
+        其中二次bezier曲线的起点S=(Sx,Sy),终点E=(Ex,Ey),控制点C=(Cx,Cy)
+        
+        m行：Px,Py
+        
+        其中测试点P=(Px,Py)
 
 输出格式
 
-b11,b12,...,b1m
-
-b21,b22,...,b2m
-
-...
-
-bs1,bs2,...,bsm
-
-如果Pij在splinegon_i内,bij=true,否则bij=false.
+    b11,b12,...,b1m
+    
+    b21,b22,...,b2m
+    
+    ...
+    
+    bs1,bs2,...,bsm
+    
+    如果Pij在splinegon_i内,bij=true,否则bij=false.
 
 1.上交源代码
 2.上交输出文件
