@@ -207,9 +207,6 @@ void convex_hull_quick_hull(std::vector<point>& S, std::vector<point>& CH) {
 	CH.push_back(S[y]);
 	HullLoop(S[y], S[x], S2, R2);
 	CH.insert(CH.end(), R2.begin(), R2.end());
-	//for (int i = 0; i < CH.size(); ++i) {
-	//	std::cout << CH[i].x << "," << CH[i].y << ",";
-	//}std::cout << std::endl;
 }
 
 void test_convexhull() {
@@ -231,7 +228,7 @@ void test_convexhull() {
 			std::cout << "(" << CH1[i].x << "," << CH1[i].y << ")" << std::endl;
 	}
 	std::cout << "convex hull gift wrappint :" << CH2.size() << std::endl;
-	for (int i = 0; i < CH1.size(); ++i) {
+	for (int i = 0; i < CH2.size(); ++i) {
 		if (i < CH2.size() - 1)
 			std::cout << "(" << CH2[i].x << "," << CH2[i].y << "),";
 		else
