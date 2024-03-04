@@ -26,12 +26,17 @@ double counterClockwiseAngle(point a, point b)
     if (angle < 0) {
         angle += 2 * M_PI;
     }
-
+    if (angle > 2 * M_PI - myeps)
+        angle = 0;
     return angle;
 }
 
 double crossProduct(point p1, point p2) {
     return p1.x * p2.y - p1.y * p2.x;
+}
+
+double distance(point a, point b) {
+    return sqrt((a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y));
 }
 
 double distance(point a, point b, point c)
